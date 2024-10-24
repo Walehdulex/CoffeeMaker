@@ -72,8 +72,12 @@ public class CoffeeMaker {
 	 */
 	public int makeEspresso(int amtPaid) {
 
-		// TODO: code this method
-		return -1;
+		if (amtPaid >= 1 && this.getCoffee() >= 1) {
+			this.coffee--;
+			return amtPaid - 1;
+		}
+		//not enough money or not enough coffee
+		return amPaid.
 	}
 
 	/**
