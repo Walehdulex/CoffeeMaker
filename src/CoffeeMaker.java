@@ -48,7 +48,8 @@ public class CoffeeMaker {
 	 */
 	public void cleanup() {
 		
-		// TODO: code this method
+		this.coffee = 0;
+		this.milk = 0;
 	}
 
 	/**
